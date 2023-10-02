@@ -46,6 +46,8 @@
     "typescript": "latest"
   },
   "devDependencies": {
+    "bun-plugin-dts": "^0.2.1",
+    "bun-plugin-dts-auto": "^0.2.2",
     "bun-types": "^1.0.3",
     "daisyui": "latest"
   }
