@@ -4,7 +4,7 @@
     "paths": {
       "data": ["./src/data.ts"]
     },
-    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": false,
     "types": ["bun-types"],
     "lib": ["esnext", "dom"],
     "module": "esnext",
