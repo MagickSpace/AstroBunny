@@ -21,9 +21,12 @@ export default defineConfig({
       // All urls that don't contain `es` or `fr` after `https://stargazers.club/` will be treated as default locale, i.e. `en`
       locales: {
         en: 'en-US',
-        // The `defaultLocale` value must present in `locales` keys
+        uk: 'uk-UA',
         es: 'es-ES',
-        fr: 'fr-CA'
+        fr: 'fr-FR',
+        ru: 'ru-RU',
+        de: 'de-DE',
+        it: 'it-IT', 
       }
     }
   }), solidJs()],
