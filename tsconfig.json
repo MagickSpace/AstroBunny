@@ -2,19 +2,27 @@
   "extends": "astro/tsconfigs/base",
   "compilerOptions": {
     "paths": {
-      "data": ["./src/data.ts"]
+      "data": [
+        "./src/data.ts"
+      ]
     },
     "verbatimModuleSyntax": false,
-    "types": ["bun-types"],
-    "lib": ["esnext", "dom"],
+    "types": [
+      "bun-types",
+      "astro/client"
+    ],
+    "lib": [
+      "esnext",
+      "dom"
+    ],
     "module": "esnext",
     "target": "esnext",
     "moduleResolution": "bundler",
     "noEmit": true,
     "allowImportingTsExtensions": true,
     "moduleDetection": "force",
-    "allowJs": true, 
-    "esModuleInterop": true, 
+    "allowJs": true,
+    "esModuleInterop": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
@@ -27,7 +35,7 @@
     "plugins": [
       {
         "name": "@astrojs/ts-plugin"
-      },
-    ],
+      }
+    ]
   }
 }
