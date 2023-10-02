@@ -1,0 +1,20 @@
+[install]
+# where `bun install --global` installs packages
+globalDir = "~/.bun/install/global"
+auto = "auto"
+# where globally-installed package bins are linked
+globalBinDir = "~/.bun/bin"
+
+[install.lockfile]
+# whether to save a non-Bun lockfile alongside bun.lockb
+# only "yarn" is supported
+print = "yarn"
+
+
+preload = ["./src/front/index.ts"]
+
+
+jsx = "react"
+jsxFactory = "h"
+jsxFragment = "Fragment"
+jsxImportSource = "react"
